@@ -1,6 +1,8 @@
 # projectwork
 
-A new Flutter project.
+PureOrganic e-comerce app create in flutter 
+i used smooth page indicator, 
+flutter otp text field plugins....
 
 ## Getting Started
 
