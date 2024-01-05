@@ -1,8 +1,8 @@
 # projectwork
 
 PureOrganic e-comerce app create in flutter 
-i used smooth page indicator, 
-flutter otp text field plugins....
+smooth page indicator, 
+flutter otp text field plugins are included this project....
 
 ## Getting Started
 

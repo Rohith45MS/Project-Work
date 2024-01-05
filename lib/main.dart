@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projectwork/Location.dart';
+import 'package:projectwork/payment.dart';
 import 'package:projectwork/selling%20products.dart';
 import 'package:projectwork/two.1.dart';
 import 'package:projectwork/two.2.dart';
@@ -56,7 +57,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ProjectLogin(),
+      home: Paymentpage(),
     );
   }
 }
