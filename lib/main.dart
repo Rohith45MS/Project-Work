@@ -22,6 +22,7 @@ import 'Signup1.dart';
 import 'Signup2.dart';
 import 'SignupDetails.dart';
 import 'Wishlist.dart';
+import 'bottombar.dart';
 import 'category.dart';
 import 'one.dart';
 
@@ -57,7 +58,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Paymentpage(),
+      home: Mainpage(),
     );
   }
 }

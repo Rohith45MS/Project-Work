@@ -5,7 +5,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'Cart.dart';
 import 'Notification.dart';
 import 'Popular products.dart';
-import 'Profile.dart'; 
+import 'Profile.dart';
 import 'Wishlist.dart';
 import 'category.dart';
 
@@ -20,59 +20,12 @@ class Homescreen extends StatefulWidget {
 class _HomescreenState extends State<Homescreen> {
   var pagecontroll= PageController();
 
-  var intsum=0;
-
-  var Pagesshow=[
-    Homescreen(),
-    CartPage(),
-    Wishlist(),
-    Profile(),
-  ];
 
   @override
   Widget build(BuildContext context) {
     return Container(
       child: SafeArea(
         child: Scaffold(
-
-        bottomNavigationBar: BottomNavigationBar(
-          items:[
-            BottomNavigationBarItem(
-                icon:Icon(Icons.home,
-                  color: Color(0xFF4F7B39),
-                ),
-                label: "Home",
-            ),
-            BottomNavigationBarItem(
-                icon:Icon(Icons.shopping_bag_outlined,
-                  color: Color(0xFF4F7B39),
-                ),
-                label: "Bag",
-            ),
-            BottomNavigationBarItem(
-                icon:Icon(Icons.favorite_border,
-                  color: Color(0xFF4F7B39),
-                ),
-                label: "Menu",
-            ),
-            BottomNavigationBarItem(
-                icon:Icon(Icons.person_outline,
-                  color: Color(0xFF4F7B39),
-                ),
-                label: "Menu",
-            ),
-          ],
-          iconSize: 32,
-          selectedFontSize: 12,
-          showUnselectedLabels: false,
-          currentIndex: intsum,
-          onTap: (int index){
-            setState(() {
-              intsum=index;
-            });
-          },
-
-        ),
          body:SingleChildScrollView(
            child: Column(
              mainAxisAlignment: MainAxisAlignment.start,
